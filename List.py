@@ -1,3 +1,4 @@
+# Списки
 phones=['Za','Ds','Ar']
 print(phones)
 phones_count=len(phones) # считаем позиции
@@ -21,16 +22,3 @@ del phones[1]#удалить из списка
 print(phones)
 phones.remove('Ar')# схлопнуть двойные
 print(phones)
-
-#Задание к слайдам
-spisok=['3','5','7','9','10.5']
-print(spisok)
-spisok.append('Python')
-spisok_count=len(spisok)
-print(spisok_count)
-print(spisok[0])
-print(spisok[-1])
-print(spisok[1:5])
-print(spisok.index('Python'))
-del spisok[5]
-print(spisok)

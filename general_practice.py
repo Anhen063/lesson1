@@ -16,10 +16,10 @@ name=str(input('Введите Ваше имя: '))
 print(f"Привет, {name}! Как дела?")
 
 #Практика Приведение типов
-#print(int("2.5"))); print(type(int("2.5))) ошибка
 print(float("1")); print(type(float("1")))
+#print(int('2,5')); print(type(int('2,5'))) ошибка????
 print(bool("1")); print(type(bool("1")))
-#print(bool(""))); print(type(bool(""))) Ошибка
+print(bool("")); print(type(bool("")))ы
 print(bool(0)); print(type(bool(0)))
 
 #Практика к Список
